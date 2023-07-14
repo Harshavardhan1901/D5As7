@@ -18,27 +18,33 @@ namespace Assingment7
             fruits.Add("date");
             fruits.Add("elderberry");
 
-            // Print the total number of elements in the ArrayList
-            Console.WriteLine("Total number of elements in the ArrayList: " + fruits.Count);
 
-            // Check if the ArrayList contains the element "date" and print the result
-            bool containsDate = fruits.Contains("date");
-            Console.WriteLine("ArrayList contains 'date': " + containsDate);
+            Console.WriteLine("Total number of elements: " + fruits.Count);
+            Console.WriteLine("Total fruits in the list: ");
+            for (int i = 0; i < fruits.Count; i++)
+            {
+                Console.WriteLine(fruits[i]);
+            }
 
-            // Insert the element "fig" at the second position in the ArrayList
-            fruits.Insert(1, "fig");
 
-            // Remove the element "banana" from the ArrayList
-            fruits.Remove("banana");
+            Console.Write("Enter an element to search: ");
+            string searchElement = Console.ReadLine();
+            bool containsSearchElement = fruits.Contains(searchElement);
+            Console.WriteLine($"Contains '{searchElement}': {containsSearchElement}");
 
-            // Print all the elements in the ArrayList using a loop
+            Console.Write("Enter an element to insert at the second position: ");
+            string insertElement = Console.ReadLine();
+            fruits.Insert(1, insertElement);
+
+            Console.Write("Enter an element to remove: ");
+            string removeElement = Console.ReadLine();
+            fruits.Remove(removeElement);
+
             Console.WriteLine("Elements in the ArrayList:");
             foreach (var fruit in fruits)
             {
                 Console.WriteLine(fruit);
             }
-
-            Console.ReadLine();
         }
     }
 }
