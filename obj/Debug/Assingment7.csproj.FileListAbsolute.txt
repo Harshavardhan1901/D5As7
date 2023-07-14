@@ -1,0 +1,8 @@
+D:\M\Day-5\Assingment7\Assingment7\bin\Debug\Assingment7.exe.config
+D:\M\Day-5\Assingment7\Assingment7\bin\Debug\Assingment7.exe
+D:\M\Day-5\Assingment7\Assingment7\bin\Debug\Assingment7.pdb
+D:\M\Day-5\Assingment7\Assingment7\obj\Debug\Assingment7.csproj.AssemblyReference.cache
+D:\M\Day-5\Assingment7\Assingment7\obj\Debug\Assingment7.csproj.SuggestedBindingRedirects.cache
+D:\M\Day-5\Assingment7\Assingment7\obj\Debug\Assingment7.csproj.CoreCompileInputs.cache
+D:\M\Day-5\Assingment7\Assingment7\obj\Debug\Assingment7.exe
+D:\M\Day-5\Assingment7\Assingment7\obj\Debug\Assingment7.pdb
