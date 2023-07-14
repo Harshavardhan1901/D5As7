@@ -45,6 +45,7 @@ namespace Assingment7
             {
                 Console.WriteLine(fruit);
             }
+            Console.ReadKey();
         }
     }
 }
